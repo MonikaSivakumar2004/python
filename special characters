@@ -1,0 +1,11 @@
+def is_special_character_present(string):
+    for char in string:
+        if not ('A' <= char <= 'Z' or 'a' <= char <= 'z' or '0' <= char <= '9'):
+            return True
+    return False
+
+input_string = "Monikasivakumar"
+print(is_special_character_present(input_string)) 
+
+input_string = "monika@2004$"
+print(is_special_character_present(input_string)) 
