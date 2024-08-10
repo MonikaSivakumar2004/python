@@ -1,0 +1,6 @@
+str1="a,b,c,d,m,&,*,%,$"
+splchar="@,#,$,%,^,&"
+if str1 contains splchar"
+ print(true)
+else:
+  Print(false)
